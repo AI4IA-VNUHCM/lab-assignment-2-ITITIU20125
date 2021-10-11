@@ -19,6 +19,21 @@ int main(int argc, char *argv[]) {
 	int n = atoi(argv[1]);
 	int result;
 	//Your codes here
+	int factorial1=1;
+    int factorial2=1;
+	for( int i = 1; i <= n ; i++)
+	{
+		if (i % 2 == 0)
+		{
+			factorial1 *= i;
+			result = factorial1;
+		} else
+		{ 
+			factorial2 *= i;
+            result = factorial2;   
+		}
+		
+	}
 	
 	printf("%d", result);
 	return 0;
