@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
 			printf("%d ",testcase);
 			while(testcase > 1){
 				if(testcase % i == 0){
-					printf("%d ",i);
+				
 					if(testcase != i){
 						printf(" * ");
 					}
